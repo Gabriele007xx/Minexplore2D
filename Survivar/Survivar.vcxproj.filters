@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di origine\Item">
+      <UniqueIdentifier>{77b70594-9601-4353-a8a9-2b4815fbbee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\World">
+      <UniqueIdentifier>{43c6f883-484d-472d-b0f0-374299c5f6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\Util">
+      <UniqueIdentifier>{0ab2b540-aeba-4783-acd8-d546b74988ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\World\Entity">
+      <UniqueIdentifier>{02333cb3-341e-4e75-a8c1-9e3aa59d1846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\World\Entity\Player">
+      <UniqueIdentifier>{f931383a-145a-4c06-9793-6bb4745cc600}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>File di origine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance.cpp">
+      <Filter>File di origine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>File di origine\World\Entity\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Survivar.rc">
+      <Filter>File di risorse</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
